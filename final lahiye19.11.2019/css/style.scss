@@ -1,0 +1,22 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@import '_header';
+@import '_home';
+@import '_footer';
+
+@import '_blog';
+@import '_contact';
+
+@media (max-width:768px){
+    #section1{
+        height: 400px;
+        background-size: cover;
+    }
+    .mainNav,.cont-phone,.cont-email{
+        display: none;
+    }
+}
